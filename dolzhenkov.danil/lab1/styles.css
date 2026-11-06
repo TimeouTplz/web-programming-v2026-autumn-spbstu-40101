@@ -1,23 +1,19 @@
 .menu-list {
-  width: 400px;
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
+    width: 400px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 .menu-list li {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  padding-bottom: 8px;
-  border-bottom: 1px solid #000;
-}
-
-.menu-list li:last-child {
-  border-bottom: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 8px;
 }
 
 .menu-list li:not(:last-child) {
-  margin-bottom: 16px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid black;
 }
