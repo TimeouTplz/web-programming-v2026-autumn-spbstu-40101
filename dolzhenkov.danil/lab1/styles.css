@@ -10,10 +10,11 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-}
-
-.menu-list li:not(:last-child) {
   border-bottom: 1px solid black;
   margin-bottom: 16px;
   padding-bottom: 8px;
+}
+
+.menu-list li:last-child {
+  border-bottom: none;
 }
