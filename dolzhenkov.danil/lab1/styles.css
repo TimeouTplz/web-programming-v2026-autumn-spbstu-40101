@@ -10,16 +10,10 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-color: black;
-}
-
-.menu-list li:last-child {
-  border-bottom: none;
 }
 
 .menu-list li:not(:last-child) {
+  border-bottom: 1px solid black;
   margin-bottom: 16px;
   padding-bottom: 8px;
 }
